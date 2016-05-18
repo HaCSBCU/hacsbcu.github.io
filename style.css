@@ -23,6 +23,7 @@ body{
   text-align: center;
   transform: translateY(-80%);
   top: 50%;
+  transition: all 0.3s ease;
 }
 img{
   width: 80%;
@@ -31,7 +32,7 @@ h2{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   padding-top: 20px;
-  font-size: 30px;
+  font-size: 1.7em;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -55,4 +56,20 @@ hr{
   border-top: 1px solid black;
   width: 100%;
   padding: 20px;
+}
+@media screen and (max-width: 881px){
+  .logo-container{
+    width: 70%;
+  }
+  h2{
+    font-size: 1.7em !important;
+  }
+}
+@media screen and (max-width: 580px){
+  .logo-container{
+    width: 100%;
+  }
+  h2{
+    font-size: 1.7em !important;
+  }
 }
