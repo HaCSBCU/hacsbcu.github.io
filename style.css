@@ -1,0 +1,75 @@
+h2{
+  margin: 0;
+  padding: 0px;
+}
+html, body, div{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+html{
+  height: 100%;
+}
+body{
+  background-color: #F5F5F5;
+  position: relative;
+  height: 100%;
+}
+.logo-container{
+  width: 50%;
+  margin: auto;
+  height: auto;
+  position: relative;
+  text-align: center;
+  transform: translateY(-80%);
+  top: 50%;
+  transition: all 0.3s ease;
+}
+img{
+  width: 80%;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+span{
+  font-weight: 400;
+}
+hr{
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin-top: 25px;
+}
+.social img{
+  display: inline-block;
+  width: 28px;
+}
+.social{
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid black;
+  width: 100%;
+  padding: 20px;
+}
+@media screen and (max-width: 881px){
+  .logo-container{
+    width: 70%;
+  }
+  h2{
+    font-size: 1.7em !important;
+  }
+}
+@media screen and (max-width: 580px){
+  .logo-container{
+    width: 100%;
+  }
+  h2{
+    font-size: 1.7em !important;
+  }
+}
