@@ -48,14 +48,12 @@
         position: relative;
         height: 100%;
         max-height: 200px;
-        @include background('../../images/team/alex.jpg');
-        @include backgroundProps(top, cover, no-repeat)
       }
       h3{
         padding-top: 20px;
       }
       img{
-        width: 20px;
+        width: 15px;
         margin-right: 10px;
       }
       .date{
@@ -94,4 +92,19 @@
     width: 50% !important;
     margin: 20px 0px !important;
   }
+}
+
+#event1 {
+  background-image: url('../../images/events/event-images/freshers.jpg');
+  @include backgroundProps(center, cover, no-repeat);
+}
+
+#event2 {
+  background-image: url('../../images/events/event-images/woodman.jpg');
+  @include backgroundProps(center, cover, no-repeat);
+}
+
+#event3 {
+  background-image: url('../../images/collaboration2.jpg');
+  @include backgroundProps(center, cover, no-repeat);
 }
