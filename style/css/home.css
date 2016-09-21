@@ -385,7 +385,10 @@ header {
   overflow: hidden; }
 
 .show {
-  height: 300px !important; }
+  height: 80px !important; }
+
+.show-mobile {
+  height: 300px; }
 
 .mobile-hide {
   display: none; }

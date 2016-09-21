@@ -38,7 +38,7 @@
                 <a href="#about"><li>About <div class="nav-line"></div></li></a>
                 <a href="#events"><li>Events <div class="nav-line"></li></a>
                 <a href="#committe"><li>Committee <div class="nav-line"></li></a>
-                <a href="#"><li>Membership <div class="nav-line"></li></a>
+                <a href="https://www.bcusu.com/organisation/EHaCS/"><li>Membership <div class="nav-line"></li></a>
             </ul>
         </div>
         <div id="header-logo">
@@ -312,7 +312,7 @@
         mobileNavTrigger.on('click hover', function(){
             event.stopPropagation();
             mobileMenu.removeClass('hide');
-            mobileMenu.addClass('show');
+            mobileMenu.addClass('show-mobile');
             mobileNavTrigger.css({
                 backgroundColor: 'background-color: rgba(0,0,0,0.6);'
             });
@@ -321,7 +321,7 @@
 
         //Close if body clicked
         $(window).on('click', function(){
-            mobileMenu.addClass('mobile-hide').removeClass('hide');
+            mobileMenu.addClass('mobile-hide').removeClass('show-mobile');
         })
     </script>
 
