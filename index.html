@@ -1,23 +1,331 @@
-<!doctype html>
 <html>
-  <head>
-    <title>HACS - Hackathon and Computing Society</title>
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
-  </head>
 
-  <body>
+<head>
+    <link rel="stylesheet" type="text/css" href="style/css/home.css"/>
+    <!--TODO: Add viewport code-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--TODO: MixItUp support-->
+</head>
 
-      <div class="logo-container">
-        <img src="images/logo.png" alt="HaCS Logo"/>
-        <hr/>
-        <h2>Website <span>coming soon...</span></h2>
-      </div>
+<body>
 
-      <div class="social">
-        <a href="http://www.facebook.com/hacsbcu"><img src="images/facebook.png" alt="facebook"/></a>
-        <a href="https://twitter.com/HaCSoc"><img src="images/twitter.png" alt="facebook" style="padding-left: 50px; padding-right: 50px;"/></a>
-        <a href="https://github.com/HaCSBCU"><img src="images/github.png" alt="facebook"/></a>
-      </div>
-  </body>
+    <!--PAGE HEADER-->
+    <header id="header">
+        <div class="desktop-nav-container" role="static">
+            <ul class="desktop-nav" role="navigation">
+                <a href="#about"><li>About <div class="nav-line"></div></li></a>
+                <a href="#events"><li>Events <div class="nav-line"></li></a>
+                <a href="#committe"><li>Committee <div class="nav-line"></li></a>
+                <a href="https://www.bcusu.com/organisation/EHaCS/"><li>Membership <div class="nav-line"></li></a>
+            </ul>
+        </div>
+        <div class="mobile-nav-container" role="static">
+            <div class="mobile-trigger">
+                <h3>MENU</h3>
+            </div>
+            <div class="mobile-menu-dropdown">
+                <ul class="mobile-nav" role="navigation">
+                    <a href="#about"><li>About <div class="nav-line"></div></li></a>
+                    <a href="#events"><li>Events <div class="nav-line"></li></a>
+                    <a href="#committe"><li>Committee <div class="nav-line"></li></a>
+                    <a href="https://www.bcusu.com/organisation/EHaCS/"><li>Membership <div class="nav-line"></li></a>
+                </ul>
+            </div>
+        </div>
+        <div id="nav-scroll" class="desktop-nav-container hide" role="scroll">
+            <img src="images/logo-square.png" alt="Hacs square logo"/>
+            <ul class="desktop-nav" role="navigation">
+                <a href="#about"><li>About <div class="nav-line"></div></li></a>
+                <a href="#events"><li>Events <div class="nav-line"></li></a>
+                <a href="#committe"><li>Committee <div class="nav-line"></li></a>
+                <a href="#"><li>Membership <div class="nav-line"></li></a>
+            </ul>
+        </div>
+        <div id="header-logo">
+            <img src="./images/logo-white.svg" alt="HaCS Logo"/>
+        </div>
+        <div id="header-bottom">
+            <a href="#about">
+                <h4>Join us today!</h4>
+                <div class="down-arrow" id="down-arrow-header"></div>
+            </a>
+        </div>
+    </header>
+
+    <!--ABOUT SECTION-->
+    <section id="about">
+        <div class="about-left">
+            <!--Image Here-->
+        </div>
+        <div class="about-right">
+            <div class="container">
+                <h1 role="section-heading">Who are we?</h1>
+                <p>We are HaCS - Hackathon and Computing Society and Birmingham City University. HaCS focuses on
+                    bringing together like mind, technology enthusiastic people to combine knowledge and create a
+                    fantastic network of people. Whatever classes you study, faculty you belong to, theirs always room
+                    for you here!
+                </p>
+                <button class="button-white">Join</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics">
+        <div class="container">
+            <div id="statistics-content">
+                <div class="statistics-item">
+                    <img src="./images/icons/team.svg">
+                    <h2>45</h2>
+                    <h4>Members</h4>
+                </div>
+                <div class="statistics-item">
+                    <img src="./images/icons/calendar.svg">
+                    <h2>12</h2>
+                    <h4>Social events</h4>
+                    <p>(per month)</p>
+                </div>
+                <div class="statistics-item">
+                    <img src="./images/icons/keyboard.svg">
+                    <h2>25</h2>
+                    <h4>Hackathons</h4>
+                </div>
+                <div class="statistics-item">
+                    <img src="./images/icons/laptop.svg">
+                    <h2>13</h2>
+                    <h4>Projects</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join" id="join-small">
+            <div class="container">
+                <h1>Join now</h1>
+            </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <div class="section-heading">
+                <h1 role="section-heading">Events</h1>
+                <h3>Whatever you're into, we've got it covered</h3>
+            </div>
+            <div id="event-categories">
+                <div class="category-item">
+                    <div class="category-image">
+                        <a href=""><img src="./images/events/all.svg"/></a>
+                    </div>
+                    <h4>All</h4>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <a href=""><img src="./images/events/how%20to.svg"/></a>
+                    </div>
+                    <h4>How To</h4>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <a href=""><img src="./images/events/speaker.svg"/></a>
+                    </div>
+                    <h4>Speaker Talks</h4>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <a href=""><img src="#"/></a>
+                    </div>
+                    <h4>Code & Chill</h4>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <a href=""><img src="./images/events/hackathon.svg"/></a>
+                    </div>
+                    <h4>Hackathons</h4>
+
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <a href=""><img src="./images/events/other.svg"/></a>
+                    </div>
+                    <h4>Other</h4>
+                </div>
+            </div>
+            <div id="event-content">
+                <div class="event-item">
+                    <div class="event-picture"></div>
+                    <h3>Freshers Fair</h3>
+                    <h4><img src="images/map-icon"/>Birmingham City University</h4>
+                    <h4 class="date">21st September</h4>
+                </div>
+                <div class="event-item">
+                    <div class="event-picture"></div>
+                    <h3>HaCS Pub Quiz</h3>
+                    <h4><img src="images/map-icon"/>Woodarm Pub</h4>
+                    <h4 class="date">21st Seeptember</h4>
+                </div>
+                <div class="event-item">
+                    <div class="event-picture"></div>
+                    <h3>Hacs First Meeting</h3>
+                    <h4><img src="images/map-icon"/>BCU (Room TBD)</h4>
+                    <h4 class="date">TBD</h4>
+                </div>
+            </div>
+            <!--<button class="button-black">Load more</button>-->
+        </div>
+    </section>
+
+    <section class="join" id="join-small">
+        <div class="container">
+            <!--TODO: Add icon for-->
+            <h1>Request An Event</h1>
+        </div>
+    </section>
+
+    <section id="committe">
+        <div class="container">
+            <div class="section-header">
+                <h1 role="section-heading">The committe</h1>
+                <h3>Meet the team behind the organisation and running of HaCS</h3>
+            </div>
+            <div class="committee-content">
+                <div id="oliver" class="committe-item">
+                    <img src="images/team/oliver.jpg"/>
+                    <h2>Oliver</h2>
+                    <h4>Society President</h4>
+                    <hr/>
+                    <div class="committe-social">
+                        <a href="#" alt="facebook"><div class="facebook-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="twitter-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="web-outline"></div></a>
+                    </div>
+                </div>
+                <div id="alex" class="committe-item">
+                    <img src="images/team/pandelis.jpg"/>
+                    <h2>Pandelis</h2>
+                    <h4>Society secretary</h4>
+                    <hr/>
+                    <div class="committe-social">
+                        <a href="#" alt="facebook"><div class="facebook-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="twitter-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="web-outline"></div></a>
+                    </div>
+                </div>
+                <div id="pandelis" class="committe-item">
+                    <img src="images/team/alex.jpg"/>
+                    <h2>Alex</h2>
+                    <h4>Website Developer / Marketing</h4>
+                    <hr/>
+                    <div class="committe-social">
+                        <a href="#" alt="facebook"><div class="facebook-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="twitter-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="web-outline"></div></a>
+                    </div>
+                </div>
+                <div id="michael" class="committe-item">
+                    <img src="images/team/oliver.jpg"/>
+                    <h2>Michael</h2>
+                    <h4>Marketing Officer</h4>
+                    <hr/>
+                    <div class="committe-social">
+                        <a href="#" alt="facebook"><div class="facebook-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="twitter-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="web-outline"></div></a>
+                    </div>
+                </div>
+                <div id="andre" class="committe-item">
+                    <img src="images/team/oliver.jpg"/>
+                    <h2>Andre</h2>
+                    <h4>Treasurer</h4>
+                    <hr/>
+                    <div class="committe-social">
+                        <a href="#" alt="facebook"><div class="facebook-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="twitter-outline"></div></a>
+                        <a href="#" alt="facebook"><div class="web-outline"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join" id="join-large">
+        <div class="container">
+            <div class="join-content">
+                <img src="./images/logo-square.png" alt="Join Now"/>
+                <h1 role="section-heading">Become and member today</h1>
+                <h4>Join today and become part of the committe, don't worry, no matter who you are or what you do,
+                    everybody's welcome at HaCS!</h4>
+                <button class="button-white">Join now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="./images/logo-colour.svg" alt="HaCS Logo"/>
+            <div class="footer-social">
+                <a href="#"><div class="facebook"></div></a>
+                <a href="#"><div class="twitter"></div></a>
+                <a href="#"><div class="github"></div></a>
+                <a href="#"><div class="student-su"></div></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+//        var aboutHeight = $('.about-right').height();
+//        $('.about-left').css({height: aboutHeight});
+
+
+        $(document).on('scroll', function(){
+            //Get viewport of display
+            var view = $(window).scrollTop();
+
+            //Get height of header
+            var headerHeight = $('#header').height();
+
+            //Nav Scroll element
+            var nav = $('#nav-scroll');
+
+            console.log('View height: ' + view);
+            console.log('Header height: ' + headerHeight);
+
+            if(view > headerHeight){
+                nav.removeClass('hide');
+                nav.addClass('show');
+            }
+            else{
+                nav.removeClass('show');
+                nav.addClass('hide');
+            }
+        });
+
+    </script>
+
+    <script>
+
+
+        //Mobile nav
+        var mobileNavTrigger = $('.mobile-trigger');
+        var mobileMenu = $('.mobile-nav');
+//        var mobileMenuItem = $('.mobile-nav a');
+
+        mobileNavTrigger.on('click hover', function(){
+            event.stopPropagation();
+            mobileMenu.removeClass('hide');
+            mobileMenu.addClass('show');
+            mobileNavTrigger.css({
+                backgroundColor: 'background-color: rgba(0,0,0,0.6);'
+            });
+//            mobileNavTrigger.css({borderBottom: '2px solid white'})
+        });
+
+        //Close if body clicked
+        $(window).on('click', function(){
+            mobileMenu.addClass('mobile-hide').removeClass('hide');
+        })
+    </script>
+
+
+</body>
+
 </html>

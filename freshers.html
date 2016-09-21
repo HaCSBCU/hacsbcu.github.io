@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style/css/freshers.css"/>
+    <!--TODO: Add viewport code-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--TODO: MixItUp support-->
+</head>
+
+<body>
+
+    <!--PAGE HEADER-->
+    <header id="header">
+        <div class="nav-mobile"></div>
+        TODO: Active alternative nav
+        <div id="nav-scroll" class="desktop-nav-container" role="scroll">
+            <img src="images/logo-square.png" alt="Hacs square logo"/>
+            <ul class="desktop-nav" role="navigation">
+                <a href="#"><li>About <div class="nav-line"></div></li></a>
+                <a href="#"><li>Events <div class="nav-line"></li></a>
+                <a href="#"><li>Committee <div class="nav-line"></li></a>
+                <a href="#"><li>Membership <div class="nav-line"></li></a>
+            </ul>
+        </div>
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1>Freshers fair riddle</h1>
+            <hr/>
+            <h3>Solve a riddle and win a <img src="./images/icons/pint.svg"/></h3>
+        </div>
+    </header>
+
+    <section id="start">
+        <div class="container">
+            <h2>How to play</h2>
+            <div class="steps">
+                <div class="icon">
+                    <img src="images/facebook.svg"/>
+                    <h3>Like on Facebook</h3>
+                    <p>To be entered into the quiz you must <a href="https://www.facebook.com/hacsbcu/">like us on Facebook</a> and <a href="https://www.facebook.com/groups/hacsbcu/">join our facebook group!</a></p>
+                </div>
+                <div class="arrow"></div>
+                <div class="icon">
+                    <img src="images/quiz.svg"/>
+                    <h3>Start the quiz</h3>
+                    <p>You're all set, click <a href="quiz.htmk">Start Quiz</a> below</p>
+                </div>
+                <div class="arrow"></div>
+                <div class="icon">
+                    <img src="images/twitter.svg"/>
+                    <h3>Tweet for hints!</h3>
+                    <p>Need a hint? Be sure to <a href="https://twitter.com/hacsbcu">follow us on twitter</a> and tweet us @hacsbcu for a hint!</p>
+                </div>
+            </div>
+            <div class="start">
+                <div class="like"><a href="https://www.facebook.com/hacsbcu/"><button>Join Group</button></a></div>
+                <div class="like"><a href="https://www.facebook.com/hacsbcu/"><button>Like Page</button></a></div>
+                <div class="start-quiz"><a href="quiz.html"><button>Start Riddle!</button></a></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <img src="./images/logo-colour.svg" alt="HaCS Logo"/>
+            <div class="footer-social">
+                <a href="#"><div class="facebook"></div></a>
+                <a href="#"><div class="twitter"></div></a>
+                <a href="#"><div class="github"></div></a>
+                <a href="#"><div class="student-su"></div></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        var aboutHeight = $('.about-right').height();
+        $('.about-left').css({height: aboutHeight});
+
+        var headerHeight = document.getElementById('header');
+        var documentView = $(document).offset().top;
+        var scrollNav = document.getElementById('nav-scroll');
+        $(document).on('scroll', function(){
+            console.log(documentView);
+            if(documentView > headerHeight){
+                scrollNav.addClass('expanded');
+            }
+            else{
+                scrollNav.removeClass('expanded');
+            }
+        });
+    </script>
+
+    <script>
+        //Mobile nav
+        var mobileNavTrigger = $('.mobile-trigger');
+        var mobileMenu = $('.mobile-nav');
+        var mobileMenuItem = $('.mobile-nav a');
+
+        mobileNavTrigger.on('click hover', function(){
+            if(mobileNavTrigger.hasClass(''))
+            mobileMenu.css({height: 'auto'});
+            mobileNavTrigger.css({borderBottom: '2px solid white'})
+        });
+    </script>
+
+
+</body>
+
+</html>

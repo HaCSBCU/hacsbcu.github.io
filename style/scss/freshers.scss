@@ -1,0 +1,106 @@
+@import "default";
+@import "theme";
+@import "nav";
+@import "footer";
+
+a{
+  color: #ed9723;
+  text-decoration: none;
+}
+
+header{
+  height: 400px;
+  @include background('../../images/pub.jpg');
+  @include backgroundProps(center, cover, no-repeat);
+  .header-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    h1{
+      color: white;
+      text-transform: uppercase;
+      font-size: 4em;
+    }
+    hr{
+      width: 7%;
+      height: 3px;
+      outline: none;
+      border: none;
+      background-color: white;
+      margin: 15px auto;
+    }
+    h3{
+      color: white;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+      img{
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+#start{
+  .container{
+    padding: 80px 0px;
+    h2{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.5em;
+      letter-spacing: 3px;
+      font-weight: 600;
+    }
+    .steps{
+      padding: 70px 0px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .icon{
+        width: 20%;
+        margin: 0px 10px;
+        text-align: center;
+        img{
+          width: 60%;
+        }
+        h3{
+          text-transform: capitalize;
+          font-weight: 600;
+          padding: 20px 0px;
+        }
+        p{
+          font-size: 1em;
+        }
+      }
+      .arrow{
+        width: 10%;
+      }
+    }
+    .start{
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      .like{
+        display: inline-block;
+        margin: 0px 10px;
+      }
+      .start-riddle{
+        width: 100%;
+        button{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  top: 0px;
+}
+
