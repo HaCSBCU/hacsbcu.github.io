@@ -560,19 +560,19 @@ header {
     width: 50% !important;
     margin: 20px 0px !important; } }
 #event1 {
-  background-image: url("../../images/events/event-images/freshers.jpg");
+  background-image: url("../../images/events/event-images/brumhack.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
 #event2 {
-  background-image: url("../../images/events/event-images/woodman.jpg");
+  background-image: url("../../images/events/event-images/python.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
 #event3 {
-  background-image: url("../../images/collaboration2.jpg");
+  background-image: url("../../images/events/event-images/cabletapping.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
