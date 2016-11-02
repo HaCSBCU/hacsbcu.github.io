@@ -95,16 +95,16 @@
 }
 
 #event1 {
-  background-image: url('../../images/events/event-images/brumhack.png');
-  @include backgroundProps(center, cover, no-repeat);
-}
-
-#event2 {
   background-image: url('../../images/events/event-images/python.jpg');
   @include backgroundProps(center, cover, no-repeat);
 }
 
-#event3 {
+#event2 {
   background-image: url('../../images/events/event-images/cabletapping.jpg');
+  @include backgroundProps(center, cover, no-repeat);
+}
+
+#event3 {
+  background-image: url('../../images/events/event-images/e-tech.jpg');
   @include backgroundProps(center, cover, no-repeat);
 }
