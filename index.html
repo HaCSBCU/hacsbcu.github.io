@@ -138,14 +138,14 @@ title: HaCS - Hackathon and Computing Society at BCU
                     <h4 class="date">Every Monday</h4>
                 </div>
 
-              {% for event in site.data.events limit 2 %}
+              {% for event in site.data.events reversed limit:2 %}
                 <div class="event-item">
-		  <a href={{event.link}}>
+		              <a href={{event.link}}>
                     <div class="event-picture"><img src="{{event.image}}"></div>
                     <h3>{{event.name}}</h3>
                     <h4><img class="icon" src="images/placeholder.svg"/> {{event.location}}</h4>
                     <h4 class="date">{{event.date}}</h4>
-		  </a>
+		              </a>
                 </div>
               {% endfor %}
 
