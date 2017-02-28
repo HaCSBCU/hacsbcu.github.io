@@ -553,6 +553,10 @@ header {
   #events button {
     font-size: 1em; }
 
+    #events #event-content .event-item:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.25);
+    }
+
 @media screen and (max-width: 850px) {
   .category-item {
     width: 30% !important;
