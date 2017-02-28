@@ -1,4 +1,4 @@
-# Info
+# HaCS
 This is the website for HaCS - Hackathon and Computing Society at Birmingham City University.
 
 If you are a BCU member and would like to contribute to this site or attend workshops and events you can sign up on the [BSUSU](https://www.bcusu.com/organisation/9907/) page
