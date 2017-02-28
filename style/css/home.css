@@ -532,18 +532,22 @@ header {
       width: 30%;
       margin: 0% 1%;
       background-color: white;
-      min-height: 100px;
+      height: 300px;
       position: relative;
-      /*Add Box Shadow*/ }
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
       #events #event-content .event-item .event-picture {
         position: relative;
-        height: 100%;
-        max-height: 200px; }
+       }
+        .event-picture img {
+          width: 100%;
+          overflow: none;
+          height: 160px;
+
+        }
+        .icon {width: 15px;}
       #events #event-content .event-item h3 {
         padding-top: 20px; }
-      #events #event-content .event-item img {
-        width: 15px;
-        margin-right: 10px; }
+
       #events #event-content .event-item .date {
         padding-bottom: 20px; }
   #events button {
@@ -565,23 +569,7 @@ header {
   .category-item {
     width: 50% !important;
     margin: 20px 0px !important; } }
-#event1 {
-  background-image: url("../../images/events/event-images/codeandchill.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
 
-#event2 {
-  background-image: url("../../images/events/event-images/bullhacks.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-#event3 {
-  background-image: url("../../images/events/event-images/hackathonsws.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
 
 #committe .section-header {
   text-align: center;

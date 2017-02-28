@@ -1,0 +1,10 @@
+- name: "Hackathon: BullHacks"
+  location: Curzon Building
+  date: 11th - 12th March
+  image: /images/events/event-images/bullhacks.jpg
+  link: https://bullhacks.io/
+
+- name: "Talk: Hackathons"
+  location: MP452
+  date: March 1st
+  image: /images/events/event-images/hackathonsws.jpg
