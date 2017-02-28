@@ -10,7 +10,7 @@ We're using jekyll to build the site. If you want to test locally you will need 
 
 If you have ruby installed:
 
-`$ gem install jekyll bundler`
+`$ gem install bundler`
 
 To run the jekyll build:
 
