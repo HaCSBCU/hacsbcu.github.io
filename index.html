@@ -1,3 +1,8 @@
+---
+layout: page
+title: HaCS - Hackathon and Computing Society at BCU
+---
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,7 +11,7 @@
     <!--TODO: Add viewport code-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!--TODO: MixItUp support-->
-    <title>HaCS - Hackathon and Computing Society at BCU</title>
+    <title>{{ page.title }}</title>
     <script>
 	if (window.location.host == 'hacs.tech' && window.location.protocol != "https:") {
 	  window.location.protocol = "https:"
@@ -205,72 +210,39 @@
         <div class="container">
             <div class="section-header">
                 <h1 role="section-heading">The committee</h1>
-                <h3>Meet the team organising and running HaCS</h3>
+                <h3>Meet the team behind the workshops and events at HaCS</h3>
             </div>
+
             <div class="committee-content">
-                <div id="oliver" class="committe-item">
-                    <img src="images/team/oliver.jpg"/>
-                    <h2>Oliver</h2>
-                    <h4>Society President</h4>
+              {% for member in site.data.committee %}
+                <div class="committe-item">
+                    <img src="images/team/{{member.name}}.jpg"/>
+                    <h2>{{member.name}}</h2>
+                    <h4>{{member.role}}</h4>
                     <hr/>
                     <div class="committe-social">
-                        <a href="https://www.facebook.com/olivlaytchev" alt="Facebook"><div class="facebook-outline"></div></a>
-                        <a href="https://twitter.com/olivlaytchev" alt="Twitter"><div class="twitter-outline"></div></a>
+
+                      {% if member.facebook %}
+                        <a href="https://www.facebook.com/{{member.facebook}}" alt="Facebook"><div class="facebook"></div></a>
+                      {% endif %}
+
+                      {% if member.twitter %}
+                        <a href="https://twitter.com/{{member.twitter}}" alt="Twitter"><div class="twitter"></div></a>
+                      {% endif %}
+
+                      {% if member.github %}
+                        <a href="https://github.com/{{member.github}}" alt="GitHub"><div class="github"></div></a>
+                      {% endif %}
+
+                      {% if member.web %}
+                        <a href="https://twitter.com/{{member.twitter}}" alt="Website"><div class="web-outline"></div></a>
+                      {% endif %}
+
                     </div>
                 </div>
-                <div id="pandelis" class="committe-item">
-                    <img src="images/team/pandelis.jpg"/>
-                    <h2>Pandelis</h2>
-                    <h4>Society secretary</h4>
-                    <hr/>
-                    <div class="committe-social">
-                        <a href="https://www.facebook.com/Pantelaz" alt="Facebook"><div class="facebook-outline"></div></a>
-                        <a href="https://twitter.com/PandelisZ" alt="Twitter"><div class="twitter-outline"></div></a>
-                    </div>
-                </div>
-                <div id="alex" class="committe-item">
-                    <img src="images/team/alex.jpg"/>
-                    <h2>Alex</h2>
-                    <h4>Website Developer / Marketing</h4>
-                    <hr/>
-                    <div class="committe-social">
-                        <a href="https://www.facebook.com/alexwileyy" alt="Facebook"><div class="facebook-outline"></div></a>
-                        <a href="https://twitter.com/Alexwileyy" alt="Twitter"><div class="twitter-outline"></div></a>
-                        <a href="http://www.alexwiley.co.uk" alt="Web"><div class="web-outline"></div></a>
-                    </div>
-                </div>
-                <div id="michael" class="committe-item">
-                    <img src="images/team/michael.jpg"/>
-                    <h2>Michael</h2>
-                    <h4>Marketing Officer</h4>
-                    <hr/>
-                    <div class="committe-social">
-                        <a href="https://www.facebook.com/mseniorrrrrrr" alt="Facebook"><div class="facebook-outline"></div></a>
-                        <a href="https://twitter.com/michaelpsenior" alt="Twitter"><div class="twitter-outline"></div></a>
-                        <a href="https://michaelpetersenior.com" alt="Web"><div class="web-outline"></div></a>
-                    </div>
-                </div>
-                <div id="andrei" class="committe-item">
-                    <img src="images/team/andre.jpg"/>
-                    <h2>Andrei</h2>
-                    <h4>Treasurer</h4>
-                    <hr/>
-                    <div class="committe-social">
-                        <a href="https://www.facebook.com/andrei.tuta" alt="Facebook"><div class="facebook-outline"></div></a>
-                        <a href="https://twitter.com/TutaAndrei" alt="Twitter"><div class="twitter-outline"></div></a>
-                    </div>
-                </div>
-                <div id="temas" class="committe-item">
-                    <img src="images/team/temas.jpg"/>
-                    <h2>Temas</h2>
-                    <h4>Events</h4>
-                    <hr/>
-                    <div class="committe-social">
-                        <a href="https://www.facebook.com/temasdriver" alt="Facebook"><div class="facebook-outline"></div></a>
-                        <a href="https://twitter.com/Temas_96" alt="Twitter"><div class="twitter-outline"></div></a>
-                    </div>
-                </div>
-            </div>
+              {% endfor %}
+
+            
         </div>
     </section>
 

@@ -1,0 +1,31 @@
+- name: Oliver
+  role: Society President
+  facebook: olivlaytchev
+  twitter: olivlaytchev
+
+- name: Pandelis
+  role: Society Secretary
+  github: PandelisZ
+  twitter: pandelisz
+
+- name: Alex
+  role: Marketing / Dev
+  facebook: alexwilleyy
+  twitter: Alexwileyy
+  web: alexwiley.co.uk
+
+- name: Michael
+  role: Marketing Officer
+  facebook: mseniorrrrrrr
+  twitter: michaelpsenior
+  web: michaelpetersenior.com
+
+- name: Andrei
+  role: Treasurer
+  facebook: andrei.tuta
+  twitter: TutaAndrei
+
+- name: Temas
+  role: Events
+  facebook: temasdriver
+  twitter: temas_96
