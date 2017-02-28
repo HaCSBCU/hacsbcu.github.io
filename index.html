@@ -1,5 +1,4 @@
 ---
-layout: page
 title: HaCS - Hackathon and Computing Society at BCU
 ---
 <!DOCTYPE html>
@@ -127,71 +126,27 @@ title: HaCS - Hackathon and Computing Society at BCU
     <section id="events">
         <div class="container">
             <div class="section-heading">
-                <h1 role="section-heading">Events</h1>
+                <h1 role="section-heading">Upcoming Events</h1>
                 <h3>Whatever you're into, we've got it covered.</h3>
             </div>
-            <div id="event-categories">
-                <div class="category-item">
-                    <div class="category-image">
-                        <a href=""><img src="./images/events/all.svg"/></a>
-                    </div>
-                    <h4>All</h4>
-                </div>
-                <div class="category-item">
-                    <div class="category-image">
-                        <a href=""><img src="./images/events/how%20to.svg"/></a>
-                    </div>
-                    <h4>How To</h4>
-                </div>
-                <div class="category-item">
-                    <div class="category-image">
-                        <a href=""><img src="./images/events/speaker.svg"/></a>
-                    </div>
-                    <h4>Speaker Talks</h4>
-                </div>
-                <div class="category-item">
-                    <div class="category-image">
-                        <a href=""><img src="#"/></a>
-                    </div>
-                    <h4>Code & Chill</h4>
-                </div>
-                <div class="category-item">
-                    <div class="category-image">
-                        <a href=""><img src="./images/events/hackathon.svg"/></a>
-                    </div>
-                    <h4>Hackathons</h4>
 
-                </div>
-                <div class="category-item">
-                    <div class="category-image">
-                        <a href=""><img src="./images/events/other.svg"/></a>
-                    </div>
-                    <h4>Other</h4>
-                </div>
-            </div>
             <div id="event-content">
                 <div class="event-item">
-                    <div id="event1" class="event-picture"></div>
+                    <div class="event-picture"><img src="/images/events/event-images/codeandchill.jpg"></div>
                     <h3>Social: Code and Chill</h3>
-                    <h4><img src="images/placeholder.svg"/>Eagle and Ball</h4>
+                    <h4><img class="icon" src="images/placeholder.svg"/> Eagle and Ball</h4>
                     <h4 class="date">Every Monday</h4>
                 </div>
+
+              {% for event in site.data.events limit 2 %}
                 <div class="event-item">
-                <a href="https://bullhacks.io">
-                    <div id="event2" class="event-picture"></div>
-                    <h3>Hackathon: Bull Hacks</h3>
-                    <h4><img src="images/placeholder.svg"/>Curzon Building</h4>
-                    <h4 class="date">11th - 12th March</h4>
-                  </a>
+                    <div class="event-picture"><img src="{{event.image}}"></div>
+                    <h3>{{event.name}}</h3>
+                    <h4><img class="icon" src="images/placeholder.svg"/> {{event.location}}</h4>
+                    <h4 class="date">{{event.date}}</h4>
                 </div>
-                <div class="event-item">
-                  <a href="https://www.facebook.com/events/148188159022567/">
-                    <div id="event3" class="event-picture"></div>
-                    <h3>Workshop: Hackathons</h3>
-                    <h4><img src="images/placeholder.svg"/>MP452</h4>
-                    <h4 class="date">1st March</h4>
-                  </a>
-                </div>
+              {% endfor %}
+
             </div>
             <!--<button class="button-black">Load more</button>-->
         </div>
@@ -242,7 +197,7 @@ title: HaCS - Hackathon and Computing Society at BCU
                 </div>
               {% endfor %}
 
-            
+
         </div>
     </section>
 
@@ -272,8 +227,8 @@ title: HaCS - Hackathon and Computing Society at BCU
 
     <script>
 
-//        var aboutHeight = $('.about-right').height();
-//        $('.about-left').css({height: aboutHeight});
+        // var aboutHeight = $('.about-right').height();
+        // $('.about-left').css({height: aboutHeight});
 
 
         $(document).on('scroll', function(){
