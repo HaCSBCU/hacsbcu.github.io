@@ -1,3 +1,9 @@
+- name: "Test Event"
+  location: MP
+  date: now
+  image: /images/events/event-images/bullhacks.jpg
+  link: http://bcu.ac.uk/
+
 - name: "Hackathon: BullHacks"
   location: Curzon Building
   date: 11th - 12th March
@@ -8,3 +14,4 @@
   location: MP452
   date: March 1st
   image: /images/events/event-images/hackathonsws.jpg
+  link: #/#events
