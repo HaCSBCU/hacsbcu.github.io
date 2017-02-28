@@ -8,7 +8,7 @@ If you are a BCU member and would like to contribute to this site or attend work
 
 We're using jekyll to build the site. If you want to test locally you will need [ruby](https://rvm.io/rvm/install) and [jekyll](https://jekyllrb.com/) to be installed.
 
-If you have ruby installed:
+Once you have ruby installed:
 
 `$ gem install bundler`
 
