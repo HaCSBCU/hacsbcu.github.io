@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/HaCSBCU/hacsbcu.github.io.svg?branch=master)](https://travis-ci.org/HaCSBCU/hacsbcu.github.io)
 # HaCS
 This is the website for HaCS - Hackathon and Computing Society at Birmingham City University.
 
