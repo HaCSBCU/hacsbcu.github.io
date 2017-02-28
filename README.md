@@ -1,4 +1,16 @@
-This is the website for HaCS - Birmingham City University Hackathon and Computing Society.
+# Info
+This is the website for HaCS - Hackathon and Computing Society at Birmingham City University.
 
-All content found in this repo is magically part of the high powers that lie in our university,
-but we promise, the people who created it are pretty damn awesome!
+If you are a BCU member and would like to contribute to this site or attend workshops and events you can sign up on the [BSUSU](https://www.bcusu.com/organisation/9907/) page
+
+# Building
+
+We're using jekyll to build the site. If you want to test locally you will need [ruby](https://rvm.io/rvm/install) and [jekyll](https://jekyllrb.com/) to be installed.
+
+If you have ruby installed:
+
+`$ gem install jekyll bundler`
+
+To run the jekyll build:
+
+`$ bundle exec jekyll serve`
