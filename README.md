@@ -15,3 +15,9 @@ Once you have ruby installed:
 To run the jekyll build:
 
 `$ bundle exec jekyll serve`
+
+# Testing
+
+To run the test scripts you can run `./tests/htmlproofer`
+
+make sure that htmlproofer is executable `chmod +x ./test/htmlproofer`
