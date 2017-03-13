@@ -1,10 +1,10 @@
 - name: Oliver
-  role: Society President
+  role: President
   facebook: olivlaytchev
   twitter: olivlaytchev
 
 - name: Pandelis
-  role: Society Secretary
+  role: Secretary
   github: PandelisZ
   twitter: pandelisz
   web: pandelis.me
@@ -16,7 +16,7 @@
   web: alexwiley.co.uk
 
 - name: Michael
-  role: Marketing Officer
+  role: Marketing
   facebook: mseniorrrrrrr
   twitter: michaelpsenior
   web: michaelpetersenior.com
