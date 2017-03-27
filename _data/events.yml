@@ -1,9 +1,9 @@
 #latest event to be added to the top of the file
 
-- name: "Hackathon: BrumHack"
-  location: University of Birmingham
-  date: 25th - 26th March
-  image: /images/events/event-images/brumhack.jpg
+- name: "Hackathon: MLH Prime"
+  location: Bloomberg Office, London
+  date: 1st - 2nd April
+  image: /images/events/event-images/mlhprime.jpg
   link: https://brumhack.co.uk/
 
 - name: "Talk: Hackathons"
