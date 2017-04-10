@@ -1,13 +1,13 @@
-#latest event to be added to the top of the file
+# Next Hackathon
+- name: "Hackathon: "
+  location:
+  date:
+  image: /images/events/event-images/
+  link:
 
-- name: "Hackathon: MLH Prime"
-  location: Bloomberg Office, London
-  date: 1st - 2nd April
-  image: /images/events/event-images/mlhprime.jpg
-  link: https://prime.mlh.io/events/europe-regional/
-
-- name: "Talk: Hackathons"
-  location: MP452
-  date: 1st March
-  image: /images/events/event-images/hackathonsws.jpg
-  link: https://www.facebook.com/events/148188159022567/
+# Next Event
+- name: "Talk: "
+  location:
+  date: 
+  image: /images/events/event-images/
+  link:
