@@ -1,32 +1,27 @@
-- name: Oliver
+- name:
   role: President
-  facebook: olivlaytchev
-  twitter: olivlaytchev
+  facebook:
+  twitter:
 
-- name: Pandelis
-  role: Secretary
-  github: PandelisZ
-  twitter: pandelisz
-  web: pandelis.me
+- name:
+  role: Vice President
+  github:
+  twitter:
+  web:
 
-- name: Alex
-  role: Marketing / Dev
-  facebook: alexwilleyy
-  twitter: Alexwileyy
-  web: alexwiley.co.uk
+- name:
+  role: Head of Development
+  facebook:
+  twitter:
+  web:
 
-- name: Michael
-  role: Marketing
-  facebook: mseniorrrrrrr
-  twitter: michaelpsenior
-  web: michaelpetersenior.com
+- name:
+  role: PR and Marketing Officer
+  facebook:
+  twitter:
+  web:
 
-- name: Andrei
-  role: Treasurer
-  facebook: andrei.tuta
-  twitter: TutaAndrei
-
-- name: Temas
-  role: Events
-  facebook: temasdriver
-  twitter: temas_96
+- name:
+  role: SU Liaison
+  facebook:
+  twitter: 
