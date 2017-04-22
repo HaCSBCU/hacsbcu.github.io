@@ -285,7 +285,7 @@ header {
       width: 20px;
       height: 20px;
       margin: auto;
-      animation: down-arrow-animation 2s infinite;
+      /* animation: down-arrow-animation 2s infinite; */
       background-image: url("../../images/arrow-down.svg");
       -webkit-background-image: url("../../images/arrow-down.svg");
       -moz-background-image: url("../../images/arrow-down.svg");

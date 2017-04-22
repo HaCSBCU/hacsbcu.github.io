@@ -1,0 +1,24 @@
+- name: Tom
+  role: President
+  facebook: tom.seelig.71
+  github: CoffeeOwl97
+
+- name: Oliver
+  role: Vice President
+  github: Zattri
+  facebook: Zattri
+
+- name: Pandelis
+  role: Technical Development
+  facebook: Pantelaz
+  twitter: pandelisz
+  github: PandelisZ
+  web: pandelis.me
+
+- name: Bethany
+  role: PR & Marketing
+  facebook: bethany.simpson.1996
+
+- name: Bethany
+  role: SU Liason
+  facebook: bethany.simpson.1996
