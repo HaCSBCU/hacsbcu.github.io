@@ -21,14 +21,14 @@ title: HaCS - Hackathon and Computing Society at BCU
 <body>
 
     <!--PAGE HEADER-->
-    <header id="header">
+    <header class="header">
       <div class="desktop-nav-container" role="static">
         <ul class="desktop-nav" role="navigation">
           <a href="#about"><li>About <div class="nav-line"></div></li></a>
-          <a href="#events"><li>Events <div class="nav-line"></li></a>
-          <a href="#committe"><li>Committee <div class="nav-line"></li></a>
-          <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></li></a>
-          <a href="https://hacshub.luketainton.co.uk/hacshub"><li>HaCSHub <div class="nav-line"></li></a>
+          <a href="#events"><li>Events <div class="nav-line"></div></li></a>
+          <a href="#committe"><li>Committee <div class="nav-line"></div></li></a>
+          <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></div></li></a>
+          <a href="https://hacshub.luketainton.co.uk/hacshub"><li>HaCSHub <div class="nav-line"></div></li></a>
         </ul>
       </div>
         <div class="mobile-nav-container" role="static">
@@ -38,10 +38,10 @@ title: HaCS - Hackathon and Computing Society at BCU
           <div class="mobile-menu-dropdown">
             <ul class="mobile-nav" role="navigation">
               <a href="#about"><li>About <div class="nav-line"></div></li></a>
-              <a href="#events"><li>Events <div class="nav-line"></li></a>
-              <a href="#committe"><li>Committee <div class="nav-line"></li></a>
-              <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></li></a>
-              <a href="https://hacshub.luketainton.co.uk/hacshub"><li>HaCSHub <div class="nav-line"></li></a>
+              <a href="#events"><li>Events <div class="nav-line"></div></li></a>
+              <a href="#committe"><li>Committee <div class="nav-line"></div></li></a>
+              <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></div></li></a>
+              <a href="https://hacshub.luketainton.co.uk/hacshub"><li>HaCSHub <div class="nav-line"></div></li></a>
             </ul>
           </div>
         </div>
@@ -49,10 +49,10 @@ title: HaCS - Hackathon and Computing Society at BCU
           <img src="images/logo-square.png" alt="Hacs square logo"/>
           <ul class="desktop-nav" role="navigation">
             <a href="#about"><li>About <div class="nav-line"></div></li></a>
-            <a href="#events"><li>Events <div class="nav-line"></li></a>
-            <a href="#committe"><li>Committee <div class="nav-line"></li></a>
-            <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></li></a>
-            <a href="https://hacshub.luketainton.co.uk/hacshub"><li>HaCSHub <div class="nav-line"></li></a>
+            <a href="#events"><li>Events <div class="nav-line"></div></li></a>
+            <a href="#committe"><li>Committee <div class="nav-line"></div></li></a>
+            <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></div></li></a>
+            <a href="https://hacshub.luketainton.co.uk/hacshub"><li>HaCSHub <div class="nav-line"></div></li></a>
           </ul>
         </div>
         <div id="header-logo">
@@ -116,7 +116,7 @@ title: HaCS - Hackathon and Computing Society at BCU
       </div>
     </section>
 
-    <section class="join" id="join-small">
+    <section class="join join-small">
       <div class="container">
         <div id="header">
           <h1>Join our mailing list</h1>
@@ -157,9 +157,9 @@ title: HaCS - Hackathon and Computing Society at BCU
         </div>
     </section>
 
-    <section class="join" id="join-small">
+    <section class="join join-small">
         <div class="container">
-          <div id="header">
+          <div class="header">
             <h1>Let us know what you want to learn about</h1>
               <a href="mailto:alexander.wiley@mail.bcu.ac.uk?Subject=HaCS%20Event%20Request"><button class="button-white">Request an Event</button></a>
           </div>
@@ -201,6 +201,7 @@ title: HaCS - Hackathon and Computing Society at BCU
                     </div>
                 </div>
               {% endfor %}
+          </div>
         </div>
     </section>
 
@@ -240,7 +241,7 @@ title: HaCS - Hackathon and Computing Society at BCU
             var view = $(window).scrollTop();
 
             //Get height of header
-            var headerHeight = $('#header').height();
+            var headerHeight = $('.header').height();
 
             //Nav Scroll element
             var nav = $('#nav-scroll');
