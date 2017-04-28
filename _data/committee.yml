@@ -1,32 +1,57 @@
-- name: Oliver
-  role: President
-  facebook: olivlaytchev
-  twitter: olivlaytchev
+2017:
+  - name: Tom
+    role: President
+    facebook: tom.seelig.71
+    github: CoffeeOwl97
 
-- name: Pandelis
-  role: Secretary
-  github: PandelisZ
-  twitter: pandelisz
-  web: pandelis.me
+  - name: Ollie
+    role: Vice President
+    github: Zattri
+    facebook: Zattri
 
-- name: Alex
-  role: Marketing / Dev
-  facebook: alexwilleyy
-  twitter: Alexwileyy
-  web: alexwiley.co.uk
+  - name: Pandelis
+    role: Technical Development
+    twitter: pandelisz
+    github: PandelisZ
+    web: pandelis.me
 
-- name: Michael
-  role: Marketing
-  facebook: mseniorrrrrrr
-  twitter: michaelpsenior
-  web: michaelpetersenior.com
+  - name: Bethany
+    role: PR & Marketing
+    facebook: bethany.simpson.1996
 
-- name: Andrei
-  role: Treasurer
-  facebook: andrei.tuta
-  twitter: TutaAndrei
+  - name: PENDING ELECTION
+    role: SU Liason
 
-- name: Temas
-  role: Events
-  facebook: temasdriver
-  twitter: temas_96
+2016:
+  - name: Oliver
+    role: President
+    facebook: olivlaytchev
+    twitter: olivlaytchev
+
+  - name: Pandelis
+    role: Secretary
+    github: PandelisZ
+    twitter: pandelisz
+    web: pandelis.me
+
+  - name: Alex
+    role: Marketing / Dev
+    facebook: alexwilleyy
+    twitter: Alexwileyy
+    web: alexwiley.co.uk
+
+  - name: Michael
+    role: Marketing
+    facebook: mseniorrrrrrr
+    twitter: michaelpsenior
+    web: michaelpetersenior.com
+
+  - name: Andrei
+    role: Treasurer
+    facebook: andrei.tuta
+    twitter: TutaAndrei
+
+  - name: Temas
+    role: Events
+    facebook: temasdriver
+    twitter: temas_96
