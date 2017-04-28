@@ -109,7 +109,7 @@ h1[role="section-heading"] {
   padding: 80px 0;
 }
 
-#join-small {
+.join-small {
   font-size: 0.7em; }
 
 .facebook {
@@ -285,7 +285,7 @@ header {
       width: 20px;
       height: 20px;
       margin: auto;
-      animation: down-arrow-animation 2s infinite;
+      /* animation: down-arrow-animation 2s infinite; */
       background-image: url("../../images/arrow-down.svg");
       -webkit-background-image: url("../../images/arrow-down.svg");
       -moz-background-image: url("../../images/arrow-down.svg");
@@ -349,29 +349,29 @@ header {
   top: 0px;
   left: 0px; }
 
-#header .mobile-nav-container {
+.header .mobile-nav-container {
   position: absolute;
   width: 100%;
   margin: auto;
   top: 53px; }
-#header .mobile-trigger {
+.header .mobile-trigger {
   height: auto;
   border-bottom: 2px solid white;
   text-align: center;
   padding: 10px 0px;
   cursor: pointer; }
-#header h3 {
+.header h3 {
   color: white;
   letter-spacing: 2px;
   font-weight: 600;
   font-size: 1.2em; }
-#header .mobile-nav {
+.header .mobile-nav {
   height: 0px;
   overflow: hidden;
   padding-left: 0px;
   position: relative;
   z-index: 100; }
-  #header .mobile-nav a {
+  .header .mobile-nav a {
     display: block;
     padding: 12px 0px;
     color: white;

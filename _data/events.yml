@@ -4,10 +4,12 @@
   location: Bloomberg Office, London
   date: 1st - 2nd April
   image: /images/events/event-images/mlhprime.jpg
+  alt: MLH Prime
   link: https://prime.mlh.io/events/europe-regional/
 
 - name: "Talk: Hackathons"
   location: MP452
   date: 1st March
   image: /images/events/event-images/hackathonsws.jpg
+  alt: Hackathons Workshop
   link: https://www.facebook.com/events/148188159022567/
