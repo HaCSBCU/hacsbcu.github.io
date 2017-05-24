@@ -16,11 +16,15 @@ We're using jekyll to build the site. If you want to test locally you will need 
 
 Once you have ruby installed:
 
-`$ gem install bundler`
+```sh
+gem install bundler
+```
 
 To run the jekyll build (inside this directory):
 
-`$ bundle exec jekyll serve`
+```sh
+bundle exec jekyll serve
+```
 
 ## Testing
 
