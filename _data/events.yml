@@ -1,11 +1,11 @@
 #latest event to be added to the top of the file
 
-- name: "Hackathon: MLH Prime"
-  location: Bloomberg Office, London
-  date: 1st - 2nd April
-  image: /images/events/event-images/mlhprime.jpg
-  alt: MLH Prime
-  link: https://prime.mlh.io/events/europe-regional/
+- name: "Hackathon: FMICodes"
+  location: Sofia University, Bulgaria
+  date: 27th - 28th May
+  image: /images/events/event-images/fmicodes.png
+  alt: FMICodes
+  link: http://fmicodes.fss.fmi.uni-sofia.bg/
 
 - name: "Talk: Hackathons"
   location: MP452
