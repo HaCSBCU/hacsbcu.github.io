@@ -408,9 +408,10 @@ header {
     background-image: url("../../images/collaboration2.jpg");
     -webkit-background-image: url("../../images/collaboration2.jpg");
     -moz-background-image: url("../../images/collaboration2.jpg");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+  }
   #about .about-right {
     width: 50%;
     background-color: #222222;
