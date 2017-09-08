@@ -401,13 +401,14 @@ header {
 
 #about {
   height: auto;
-  max-height: 430px;
+  max-height: 369px;
   overflow: hidden; }
   #about .about-left {
     width: 50%;
     background-image: url("../../images/collaboration2.jpg");
     -webkit-background-image: url("../../images/collaboration2.jpg");
     -moz-background-image: url("../../images/collaboration2.jpg");
+    color: blue;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
