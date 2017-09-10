@@ -408,7 +408,8 @@ header {
     background-image: url("../../images/collaboration2.jpg");
     -webkit-background-image: url("../../images/collaboration2.jpg");
     -moz-background-image: url("../../images/collaboration2.jpg");
-    color: blue;
+    /*color: blue;*/
+    content: '';
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
