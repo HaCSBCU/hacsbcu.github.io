@@ -1,15 +1,15 @@
 #latest event to be added to the top of the file
 
-- name: "Hackathon: HackSheffield"
-  location: University of Sheffield
-  date: 14th - 15th October
-  image: /images/events/event-images/hacksheffield.jpg
-  alt: HackSheffield
-  link: https://www.hacksheffield.co
+- name: "Hacktoberfest"
+  location: ICentrum
+  date: 25th October
+  image: /images/events/event-images/Hacktoberfest.jpg
+  alt: Hacktoberfest
+  link: https://www.eventbrite.co.uk/e/hacktoberfest-birmingham-tickets-38822177177
 
-- name: "HaCS - Welcome Talk"
+- name: "HaCS - Object Oriented Programming Workshop"
   location: C269 - Curzon Building
   date: 27th September
-  image: /images/events/event-images/WelcomeTalk.png
+  image: /images/events/event-images/OOP.png
   alt: HaCS Welcome Talk
-  link: https://www.facebook.com/events/150129985583728
+  link: https://www.facebook.com/events/146179559456472
