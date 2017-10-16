@@ -673,3 +673,8 @@ footer {
       display: inline-block;
       vertical-align: top;
       margin: 0px 10px; }
+
+    footer .footer-sponsors #dottech {
+      height: 15%;
+      width: 15%;
+    }
