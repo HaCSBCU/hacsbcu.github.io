@@ -667,7 +667,7 @@ footer {
     transform: translateY(-50%);
     left: 5%;
     position: relative; }
-    footer .footer-social .facebook, footer .footer-social .twitter, footer .footer-social .github, footer .footer-social .student-su {
+    footer .footer-social .facebook, footer .footer-social .twitter, footer .footer-social .github, footer .footer-social .student-su, footer .footer-sponsors {
       width: 20px;
       height: 20px;
       display: inline-block;
