@@ -667,14 +667,9 @@ footer {
     transform: translateY(-50%);
     left: 5%;
     position: relative; }
-    footer .footer-social .facebook, footer .footer-social .twitter, footer .footer-social .github, footer .footer-social .student-su, footer .footer-sponsors {
+    footer .footer-social .facebook, footer .footer-social .twitter, footer .footer-social .github, footer .footer-social .student-su {
       width: 20px;
       height: 20px;
       display: inline-block;
       vertical-align: top;
       margin: 0px 10px; }
-
-    footer .footer-sponsors #dottech {
-      height: 15%;
-      width: 15%;
-    }
