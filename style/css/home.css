@@ -649,7 +649,8 @@ header {
 
 footer {
   height: 80px;
-  border-top: 1px solid black; }
+  border-top: 1px solid black;
+  background-color: #222222; }
   footer .container {
     height: 100%; }
   footer img {
@@ -673,3 +674,29 @@ footer {
       display: inline-block;
       vertical-align: top;
       margin: 0px 10px; }
+
+.sponsors-section {
+  background-color: white;
+  padding: 1%;
+  text-align: center;
+  padding-top: 1%;
+}
+  .sponsors-section #sponsor-heading h1 {
+    text-transform: capitalize;
+  }
+  .sponsors-section .sponsor-item {
+    display: inline-block;
+    background-color: #f9f9f9;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 2%;
+    box-shadow: 0px 0px 5px rgba(3, 3, 3, 0.15);
+    border-radius: 4px; 
+  }
+  .sponsors-section .sponsor-item img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 3%;
+  }

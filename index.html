@@ -217,13 +217,28 @@ title: HaCS - Hackathon and Computing Society at BCU
         </div>
     </section>
 
+    <section id="sponsors" class="sponsors-section">
+      <div id="sponsor-heading">
+        <h1>SPONSORS</h1>
+        <h3>HaCS would like to thank the following companies for their support:</h3>
+      </div>
+      {% for sponsor in site.data.sponsors %}
+        <a href="http://{{sponsor.web}}" alt="Website">
+          <div class="sponsor-item" id="sponsor-content">
+            <img src="./images/sponsors/{{sponsor.logo}}" alt="{{sponsor.company}}">
+            <h3>{{sponsor.company}}</h3>
+          </div>
+        </a>
+      {% endfor %}
+    </section>
+
     <footer>
         <div class="container">
             <a href="https://hacs.tech/"><img src="/images/logo-colour.svg" alt="HaCS Logo"/></a>
             <div class="footer-social">   
                 <a href="https://www.facebook.com/groups/hacsbcu/"><div class="Facebook"></div></a>
                 <a href="https://twitter.com/HaCSBCU"><div class="Twitter"></div></a>
-                <a href="https://github.com/HaCSBCU/"><div class="github"></div></a>
+                <a href="https://github.com/HaCSBCU/"><img src="images/social/social-github-white.png" alt="GitHub Logo" style="width: 20px; height: 20px; display: inline-block; vertical-align: top; margin: 0px 10px;"</a>
                 <a href="https://www.bcusu.com/organisation/9907/"><div class="student-su"><img src="images/unilogo.png" alt="University Logo"></div></a>
             </div>
         </div>
