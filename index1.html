@@ -1,0 +1,304 @@
+---
+title: HaCS - Hackathon and Computing Society at BCU
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style/css/home.css"/>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <!--TODO: Add viewport code-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--TODO: MixItUp support-->
+    <title>{{ page.title }}</title>
+    <script>
+	if (window.location.host == 'hacs.tech' && window.location.protocol != "https:") {
+	  window.location.protocol = "https:"
+	}
+   </script>
+</head>
+
+<body>
+
+    <!--PAGE HEADER-->
+    <header class="header">
+      <div class="desktop-nav-container" role="static">
+        <ul class="desktop-nav" role="navigation">
+          <a href="#about"><li>About <div class="nav-line"></div></li></a>
+          <a href="#events"><li>Events <div class="nav-line"></div></li></a>
+          <a href="#committe"><li>Committee <div class="nav-line"></div></li></a>
+          <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></div></li></a>
+          <a href="https://hacsbcu.moodlecloud.com"><li>Workshops <div class="nav-line"></div></li></a>
+        </ul>
+      </div>
+        <div class="mobile-nav-container" role="static">
+          <div class="mobile-trigger">
+            <h3>MENU</h3>
+          </div>
+          <div class="mobile-menu-dropdown">
+            <ul class="mobile-nav" role="navigation">
+              <a href="#about"><li>About <div class="nav-line"></div></li></a>
+              <a href="#events"><li>Events <div class="nav-line"></div></li></a>
+              <a href="#committe"><li>Committee <div class="nav-line"></div></li></a>
+              <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></div></li></a>
+              <a href="https://hacsbcu.moodlecloud.com"><li>Workshops <div class="nav-line"></div></li></a>
+            </ul>
+          </div>
+        </div>
+        <div id="nav-scroll" class="desktop-nav-container hide" role="scroll">
+          <img src="images/logo-square.png" alt="Hacs square logo"/>
+          <ul class="desktop-nav" role="navigation">
+            <a href="#about"><li>About <div class="nav-line"></div></li></a>
+            <a href="#events"><li>Events <div class="nav-line"></div></li></a>
+            <a href="#committe"><li>Committee <div class="nav-line"></div></li></a>
+            <a href="https://www.bcusu.com/organisation/9907/"><li>Membership <div class="nav-line"></div></li></a>
+            <a href="https://hacsbcu.moodlecloud.com"><li>Workshops <div class="nav-line"></div></li></a>
+          </ul>
+        </div>
+        <div id="header-logo">
+          <div>
+            <img src="./images/logo-white.svg" alt="HaCS Logo"/>
+            <br />
+            <br />
+            
+            <br />
+            <a href="https://www.facebook.com/groups/hacsbcu/"><button class="button-white">JOIN THE FACEBOOK GROUP NOW</button></a>
+          </div>
+        </div>
+        <div id="header-bottom">
+          <a href="#about">
+            <h4>Join us today!</h4>
+            <div class="down-arrow" id="down-arrow-header"></div>
+          </a>
+        </div>
+    </header>
+
+    <!--ABOUT SECTION-->
+    <section id="about">
+      <div class="about-left">
+        <img class="collaboration2" src="images/collaboration2.jpg" alt="Collaboration2.jpg">
+      </div>
+      <div class="about-right">
+        <div class="container">
+          <h1 role="section-heading">Who are we?</h1>
+          <p>We are HaCS - the Hackathon and Computing Society at Birmingham City University. HaCS focuses on
+          bringing together like-minded, technology enthusiastic people to combine knowledge and create a
+          fantastic network of people. Whatever classes you study or faculty you belong to, there's always room
+          for you here!
+          </p>
+          <a href="https://www.bcusu.com/organisation/9907/"><button class="button-white">Join</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="statistics">
+      <div class="container">
+        <div id="statistics-content">
+          <div class="statistics-item">
+            <img src="./images/icons/team.svg" alt="Team">
+            <h2>100+</h2>
+            <h4>Members</h4>
+          </div>
+          <div class="statistics-item">
+            <img src="./images/icons/calendar.svg" alt="Calendar">
+            <h2>12</h2>
+            <h4>Social events</h4>
+            <p>(per month)</p>
+          </div>
+          <div class="statistics-item">
+            <img src="./images/icons/keyboard.svg" alt="Keyboard">
+            <h2>25</h2>
+            <h4>Hackathons</h4>
+          </div>
+          <div class="statistics-item">
+            <img src="./images/icons/laptop.svg" alt="Laptop">
+            <h2>13</h2>
+            <h4>Projects</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join join-small">
+      <div class="container">
+        <div id="header">
+          <h1>Join our mailing list</h1>
+          <h3>Get weekly emails about upcoming events</h3>
+          <a href="http://eepurl.com/cm7mcL"><button class="button-white">Subscribe</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="events">
+      <div class="container">
+        <div class="section-heading">
+          <h1 role="section-heading">Upcoming Events</h1>
+          <h3>Whatever you're into, we've got it covered.</h3>
+        </div>
+
+        <div id="event-content">
+          <div class="event-item">
+              <div class="event-picture"><img src="/images/events/event-images/codeandchill.jpg" alt="Code and Chill Banner"></div>
+                <h3>Social: Code and Chill</h3>
+                <h4><img class="icon" src="images/placeholder.svg" alt="Placeholder"/> Eagle and Ball</h4>
+                <h4 class="date">Every Monday</h4>
+              </div>
+
+              {% for event in site.data.events reversed limit:2 %}
+                <div class="event-item">
+		              <a href={{event.link}}>
+                    <div class="event-picture"><img src="{{event.image}}" alt="{{event.alt}}"></div>
+                    <h3>{{event.name}}</h3>
+                    <h4><img class="icon" src="images/placeholder.svg" alt="Placeholder"/> {{event.location}}</h4>
+                    <h4 class="date">{{event.date}}</h4>
+		              </a>
+                </div>
+              {% endfor %}
+
+            </div>
+            <!--<button class="button-black">Load more</button>-->
+        </div>
+    </section>
+
+    <section class="join join-small">
+        <div class="container">
+          <div class="header">
+            <h1>Let us know what you want to learn about</h1>
+              <a href="mailto:thomas.seelig@mail.bcu.ac.uk?Subject=HaCS%20Event%20Request"><button class="button-white">Request an Event</button></a>
+          </div>
+        </div>
+    </section>
+
+    <section id="committe">
+        <div class="container">
+            <div class="section-header">
+                <h1 role="section-heading">2017 Committee</h1>
+                <h3>Meet the newly-elected committee of 2017/18!</h3>
+            </div>
+
+            <div class="committee-content">
+              {% for member in site.data.committee[2017] %}
+                <div class="committe-item">
+                    <img src="images/team2017/{{member.name}}.jpg" alt="{{member.name}}"/>
+                    <h2>{{member.name}}</h2>
+                    <h4>{{member.role}}</h4>
+                    <hr/>
+                    <div class="committe-social">
+
+                      {% if member.facebook %}
+                        <a href="https://www.facebook.com/{{member.facebook}}" alt="Facebook"><div class="facebook"></div></a>
+                      {% endif %}
+
+                      {% if member.twitter %}
+                        <a href="https://twitter.com/{{member.twitter}}" alt="Twitter"><div class="twitter"></div></a>
+                      {% endif %}
+
+                      {% if member.github %}
+                        <a href="https://github.com/{{member.github}}" alt="GitHub"><div class="github"></div></a>
+                      {% endif %}
+
+                      {% if member.web %}
+                        <a href="http://{{member.web}}" alt="Website"><div class="web-outline"></div></a>
+                      {% endif %}
+
+                    </div>
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+    </section>
+
+
+    <section class="join" id="join-large">
+        <div class="container">
+            <div class="join-content">
+                <img src="/images/logo-small-non-transparent.png" alt="Join Now"/>
+                <h1 role="section-heading">Become a member today</h1>
+                <h4>Join today and become part of BCU's biggest society. Don't worry, no matter who you are or what you do,
+                    everybody's welcome at HaCS!</h4>
+                <a href="https://www.bcusu.com/organisation/9907/"><button class="button-white">Join now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a href="https://hacs.tech/"><img src="/images/logo-colour.svg" alt="HaCS Logo"/></a>
+            <div class="footer-social">   
+                <a href="https://www.facebook.com/groups/hacsbcu/"><div class="Facebook"></div></a>
+                <a href="https://twitter.com/HaCSBCU"><div class="Twitter"></div></a>
+                <a href="https://github.com/HaCSBCU/"><div class="github"></div></a>
+                <a href="https://www.bcusu.com/organisation/9907/"><div class="student-su"><img src="images/unilogo.png" alt="University Logo"></div></a>
+            </div>
+            <h5>POWERED BY .TECH DOMAINS</h5>
+        </div>
+    </footer>
+    <script>
+
+        // var aboutHeight = $('.about-right').height();
+        // $('.about-left').css({height: aboutHeight});
+
+
+        $(document).on('scroll', function(){
+            //Get viewport of display
+            var view = $(window).scrollTop();
+
+            //Get height of header
+            var headerHeight = $('.header').height();
+
+            //Nav Scroll element
+            var nav = $('#nav-scroll');
+
+            console.log('View height: ' + view);
+            console.log('Header height: ' + headerHeight);
+
+            if(view > headerHeight){
+                nav.removeClass('hide');
+                nav.addClass('show');
+            }
+            else{
+                nav.removeClass('show');
+                nav.addClass('hide');
+            }
+        });
+
+    </script>
+
+    <script>
+
+
+        //Mobile nav
+        var mobileNavTrigger = $('.mobile-trigger');
+        var mobileMenu = $('.mobile-nav');
+//        var mobileMenuItem = $('.mobile-nav a');
+
+        mobileNavTrigger.on('click hover', function(){
+            event.stopPropagation();
+            mobileMenu.removeClass('hide');
+            mobileMenu.addClass('show-mobile');
+            mobileNavTrigger.css({
+                backgroundColor: 'background-color: rgba(0,0,0,0.6);'
+            });
+//            mobileNavTrigger.css({borderBottom: '2px solid white'})
+        });
+
+        //Close if body clicked
+        $(window).on('click', function(){
+            mobileMenu.addClass('mobile-hide').removeClass('show-mobile');
+        })
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84559278-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+
+</html>
