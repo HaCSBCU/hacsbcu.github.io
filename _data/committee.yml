@@ -5,16 +5,17 @@
     twitter: SeeligThomas
     github: CoffeeOwl97
 
-  - name: Ollie
-    role: Vice President
-    github: Zattri
-    facebook: Zattri
+  - name: Chris
+    role: Interim Vice President
+    github: ChrisR5
+    facebook: ChrisRobson15
+    twitter: ChrisRCentral
 
-  - name: Pandelis
-    role: Technical Development
-    twitter: pandelisz
-    github: PandelisZ
-    web: pandelis.me
+  - name: Luke
+    role: Interim Technical Development Officer
+    twitter: luketainton1
+    github: luketainton
+    web: luketainton.co.uk
 
   - name: Bethany
     role: PR & Marketing
@@ -22,6 +23,11 @@
 
   - name: PENDING ELECTION
     role: SU Liaison
+
+  - name: Ollie
+    role: Events Manager
+    github: Zattri
+    facebook: Zattri
 
 2016:
   - name: Oliver
