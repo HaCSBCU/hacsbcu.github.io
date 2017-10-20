@@ -1,0 +1,11 @@
+\\ Import MDL Stylesheets
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://code.getmdl.io/1.3.0/material.deep_orange-deep_purple.min.css);
+
+mdl-layout {
+    background: "./assets/images/background.jpg";
+}
+
+mdl-layout-icon {
+
+}
