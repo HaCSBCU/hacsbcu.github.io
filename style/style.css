@@ -7,3 +7,8 @@ body {
     font-family: "Roboto";
     background-image: url('../assets/images/background.jpg');
 }
+
+.card-welcome {
+    align: center;
+    width: 95%;
+}
