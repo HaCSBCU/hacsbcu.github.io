@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://code.getmdl.io/1.3.0/material.deep_orange-deep_purple.min.css');
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    font-family: "Roboto";
+    background-image: url('../assets/images/background.jpg');
+}
+
+.card-welcome {
+    align: center;
+    width: 95%;
+}
