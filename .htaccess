@@ -1,0 +1,4 @@
+# Apply a CSP to all HTML and PHP files
+<FilesMatch "\.(html|php)$">
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' *googleapis.com *.google-analytics.com;"
+</FilesMatch>
