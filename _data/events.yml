@@ -1,15 +1,15 @@
 #latest event to be added to the top of the file
 
-- name: "Hacktoberfest"
-  location: ICentrum
-  date: 25th October
-  image: /images/events/event-images/Hacktoberfest.jpg
-  alt: Hacktoberfest
-  link: https://www.eventbrite.co.uk/e/hacktoberfest-birmingham-tickets-38822177177
+- name: "BullHacks"
+  location: Curzon Building, BCU
+  date: 28th April
+  image: /images/events/event-images/Bullhacks.jpg
+  alt: Bullhacks
+  link: https://bullhacks.tech/
 
-- name: "HaCS - Object Oriented Programming Workshop"
-  location: C269 - Curzon Building
-  date: 17th October
-  image: /images/events/event-images/OOP.png
-  alt: HaCS OOP Workshop
-  link: https://www.facebook.com/events/146179559456472
+- name: "HaCS - Google Foo"
+  location: MP242 - Millenium Point
+  date: 8th February
+  image: /images/events/event-images/GoogleFoo.jpg
+  alt: HaCS Google Foo
+  link: https://www.facebook.com/events/184034219021119
