@@ -171,7 +171,7 @@ title: HaCS - Hackathon and Computing Society at BCU
     <section id="committe">
         <div class="container">
             <div class="section-header">
-                <h1 role="section-heading">2017 Committee</h1>
+                <h1 role="section-heading">2017-2018 Committee</h1>
                 <h3>Meet the Team!</h3>
             </div>
 
@@ -198,6 +198,14 @@ title: HaCS - Hackathon and Computing Society at BCU
 
                       {% if member.web %}
                         <a href="http://{{member.web}}" alt="Website"><div class="web-outline"></div></a>
+                      {% endif %}
+
+                      {% if member.email %}
+                      <a href="mailto:{{member.email}}" alt="Email"><div class="email-outline"></div></a>
+                      {% endif %}
+
+                      {% if member.instagram %}
+                      <a href="https://www.instagram.com/{{member.instagram}}" alt="Instagram"><div class=" instagram-outline"></div></a>
                       {% endif %}
 
                     </div>
