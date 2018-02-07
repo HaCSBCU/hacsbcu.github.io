@@ -4,22 +4,27 @@
     facebook: tom.seelig.71
     twitter: SeeligThomas
     github: CoffeeOwl97
+    instagram: tcseelig
+    email: president@hacs.tech
 
   - name: Chris
     role: Interim Vice President
     github: ChrisR5
     facebook: ChrisRobson15
     twitter: ChrisRCentral
+    email: vicepresident@hacs.tech
 
   - name: Luke
     role: Interim Technical Development Officer
     twitter: luketainton1
     github: luketainton
     web: luketainton.co.uk
+    email: technical@hacs.tech
 
   - name: Bethany
     role: PR & Marketing
     facebook: bethany.simpson.1996
+    email: marketing@hacs.tech
 
   - name: PENDING ELECTION
     role: SU Liaison
@@ -28,6 +33,7 @@
     role: Events Manager
     github: Zattri
     facebook: Zattri
+    email: events@hacs.tech
 
 2016:
   - name: Oliver
