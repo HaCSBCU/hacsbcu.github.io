@@ -256,7 +256,7 @@ h1[role="section-heading"] {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.facebook, .github, .twitter, .web, .instagram, .facebook-outline, .github-outline, .twitter-outline, .web-outline, .instagram-outline {
+.facebook, .github, .twitter, .web, .instagram, .email, .facebook-outline, .github-outline, .twitter-outline, .web-outline, .instagram-outline, .email-outline {
   transition: all 0.3s ease; }
 
 header {
