@@ -152,6 +152,14 @@ h1[role="section-heading"] {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.email {
+  background-image: url("../../images/social/email.png");
+  -webkit-background-image: url("../../images/social/email.png");
+  -moz-background-image: url("../../images/social/email.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .facebook-outline {
   background-image: url("../../images/social/social-facebook-outline.png");
   -webkit-background-image: url("../../images/social/social-facebook-outline.png");
@@ -228,6 +236,22 @@ h1[role="section-heading"] {
   background-image: url("../../images/social/ios7-world.png");
   -webkit-background-image: url("../../images/social/ios7-world.png");
   -moz-background-image: url("../../images/social/ios7-world.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.email-outline {
+  background-image: url("../../images/social/email.png");
+  -webkit-background-image: url("../../images/social/email.png");
+  -moz-background-image: url("../../images/social/email.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.email-outline:hover {
+  background-image: url("../../images/social/email.png");
+  -webkit-background-image: url("../../images/social/email.png");
+  -moz-background-image: url("../../images/social/email.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
