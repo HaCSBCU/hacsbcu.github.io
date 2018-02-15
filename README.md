@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/HaCSBCU/hacsbcu.github.io.svg?branch=master)](https://travis-ci.org/HaCSBCU/hacsbcu.github.io)
+[![GitHub Issues](https://img.shields.io/github/issues/HaCSBCU/hacsbcu.github.io.svg)](https://github.com/HaCSBCU/hacsbcu.github.io/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/HaCSBCU/hacsbcu.github.io.svg)](https://github.com/HaCSBCU/hacsbcu.github.io/pulls)
 
 ![Website Screenshot](http://i.imgur.com/lJnqm1B.jpg)
 
