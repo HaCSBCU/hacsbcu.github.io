@@ -8,14 +8,14 @@
     email: president@hacs.tech
 
   - name: Chris
-    role: Interim Vice President
+    role: Vice President
     github: ChrisR5
     facebook: ChrisRobson15
     twitter: ChrisRCentral
     email: vicepresident@hacs.tech
 
   - name: Luke
-    role: Interim Technical Development Officer
+    role: Technical Development Officer
     twitter: luketainton1
     github: luketainton
     web: luketainton.co.uk
@@ -26,8 +26,9 @@
     facebook: bethany.simpson.1996
     email: marketing@hacs.tech
 
-  - name: PENDING ELECTION
-    role: SU Liaison
+  # - name: PENDING ELECTION
+  #   role: SU Liaison
+  #   email: suliaison@hacs.tech
 
   - name: Ollie
     role: Events Manager
