@@ -17,4 +17,4 @@ sudo: false # route your build to the container-based infrastructure for a faste
 
 notifications:
     webhooks: https://www.travisbuddy.com/
-    
+    on_success: never
