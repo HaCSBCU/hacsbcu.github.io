@@ -171,14 +171,14 @@ title: HaCS - Hackathon and Computing Society at BCU
     <section id="committe">
         <div class="container">
             <div class="section-header">
-                <h1 role="section-heading">2017-2018 Committee</h1>
+                <h1 role="section-heading">2018/19 Committee</h1>
                 <h3>Meet the Team!</h3>
             </div>
 
             <div class="committee-content">
-              {% for member in site.data.committee[2017] %}
+              {% for member in site.data.committee[2018] %}
                 <div class="committe-item">
-                    <img src="images/team2017/{{member.name}}.jpg" alt="{{member.name}}"/>
+                    <img src="images/team/{{member.name}}.jpg" alt="{{member.name}}"/>
                     <h2>{{member.name}}</h2>
                     <h4>{{member.role}}</h4>
                     <hr/>
@@ -192,6 +192,10 @@ title: HaCS - Hackathon and Computing Society at BCU
                         <a href="https://twitter.com/{{member.twitter}}" alt="Twitter"><div class="twitter"></div></a>
                       {% endif %}
 
+                      {% if member.instagram %}
+                      <a href="https://www.instagram.com/{{member.instagram}}" alt="Instagram"><div class=" instagram-outline"></div></a>
+                      {% endif %}
+
                       {% if member.github %}
                         <a href="https://github.com/{{member.github}}" alt="GitHub"><div class="github"></div></a>
                       {% endif %}
@@ -202,10 +206,6 @@ title: HaCS - Hackathon and Computing Society at BCU
 
                       {% if member.email %}
                       <a href="mailto:{{member.email}}" alt="Email"><div class="email-outline"></div></a>
-                      {% endif %}
-
-                      {% if member.instagram %}
-                      <a href="https://www.instagram.com/{{member.instagram}}" alt="Instagram"><div class=" instagram-outline"></div></a>
                       {% endif %}
 
                     </div>
@@ -231,7 +231,7 @@ title: HaCS - Hackathon and Computing Society at BCU
     <footer>
         <div class="container" style="padding-top:2%">
             <a href="https://hacs.tech/"><img src="/images/logo-colour.svg" alt="HaCS Logo"/></a>
-            <div class="footer-social">   
+            <div class="footer-social">
                 <a href="https://www.facebook.com/groups/hacsbcu/"><div class="Facebook"></div></a>
                 <a href="https://twitter.com/HaCSBCU"><div class="Twitter"></div></a>
                 <a href="https://github.com/HaCSBCU/"><div class="github"></div></a>
