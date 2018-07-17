@@ -1,4 +1,4 @@
-![Website Screenshot](https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Ftest.luketainton.co.uk%2Fhacs)
+![Website Screenshot](https://raw.githubusercontent.com/HaCSBCU/hacsbcu.github.io/gh-pages/images/readme.jpeg)
 
 # HaCS
 This is the website for HaCS - the Hackathon and Computing Society at Birmingham City University. This website acts as our central resource for content and as a playground for our members to try out new ideas and work together with others.
