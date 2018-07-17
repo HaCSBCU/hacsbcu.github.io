@@ -1,5 +1,17 @@
 # Apply a CSP to all HTML and PHP files
-<FilesMatch "\.(html|php)$">
+# <FilesMatch "\.(html|php)$">
     Header set Content-Security-Policy "default-src 'self'; script-src 'self' *googleapis.com *.google-analytics.com;"
     Header always set Strict-Transport-Security "max-age=300; preload"
-</FilesMatch>
+
+    # X-XSS-Protection
+    Header set X-XSS-Protection "1; mode=block"
+
+    # X-Frame-Options
+    Header always append X-Frame-Options SAMEORIGIN
+
+    # X-Content-Type
+    Header set X-Content-Type-Options nosniff
+
+    # Referrer-Policy
+    Header always set Referrer-Policy "same-origin"
+# </FilesMatch>
