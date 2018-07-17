@@ -1,3 +1,40 @@
+2018:
+
+  # - name: TEMPLATE
+  #   role: Committee Role
+  #   facebook: Username (after Facebook URL)
+  #   twitter: Twitter Handle
+  #   github: GitHub Username
+  #   instagram: Instagram Username
+  #   email: role@hacs.tech
+
+  - name: Tim
+    role: President
+    email: president@hacs.tech
+    facebook: tim.lockwood.921
+
+  - name: Tilly
+    role: Vice President
+    email: vicepresident@hacs.tech
+    facebook: Davies.Tilly
+
+  # - name: PENDING ELECTION
+  #   role: Technical Development Officer
+  #   email: technical@hacs.tech
+
+  # - name: PENDING ELECTION
+  #   role: PR & Marketing
+  #   email: marketing@hacs.tech
+
+  - name: Rob
+    role: SU Liaison Officer
+    email: suliaison@hacs.tech
+    facebook: robert.harper.5454
+
+  # - name: Ollie
+  #   role: Events Manager
+  #   email: events@hacs.tech
+
 2017:
   - name: Tom
     role: President
