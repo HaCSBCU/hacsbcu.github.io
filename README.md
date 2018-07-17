@@ -1,42 +1,15 @@
-[![Build Status](https://travis-ci.org/HaCSBCU/hacsbcu.github.io.svg?branch=master)](https://travis-ci.org/HaCSBCU/hacsbcu.github.io)
-[![GitHub Issues](https://img.shields.io/github/issues/HaCSBCU/hacsbcu.github.io.svg)](https://github.com/HaCSBCU/hacsbcu.github.io/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/HaCSBCU/hacsbcu.github.io.svg)](https://github.com/HaCSBCU/hacsbcu.github.io/pulls)
-
-![Website Screenshot](http://i.imgur.com/lJnqm1B.jpg)
+![Website Screenshot](https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Ftest.luketainton.co.uk%2Fhacs)
 
 # HaCS
 This is the website for HaCS - the Hackathon and Computing Society at Birmingham City University. This website acts as our central resource for content and as a playground for our members to try out new ideas and work together with others.
 
-We're open to contributions and are always improving our site. If there are any suggestions you might have or something you'd like to work on yourself feel free to open an [issue](https://github.com/HaCSBCU/hacsbcu.github.io/issues/new).
+We're open to contributions and are always improving our site. If there are any suggestions you might have or something you'd like to work on yourself feel free to [open an issue](https://github.com/HaCSBCU/hacsbcu.github.io/issues/new).
 
 If you are a BCU student and would like to contribute to this site but don't know how yet, it might be a good idea to drop us a message on our [Facebook group](https://www.facebook.com/groups/hacsbcu/) or drop into one of our workshops.
 
 
-## Building
-
-We're using Jekyll to build the site. If you want to test locally you will need [ruby](https://rvm.io/rvm/install) and [jekyll](https://jekyllrb.com/) to be installed.
-
-Once you have ruby installed:
-
-```sh
-gem install bundler
-```
-
-To run the jekyll build (inside this directory):
-
-```sh
-bundle exec jekyll serve
-```
-
-## Testing
-
-To run the test scripts you can run `./tests/htmlproofer`
-
-make sure that htmlproofer is executable `chmod +x ./test/htmlproofer`
-
 ## Contributing
-
-This project is targeted to members of HaCS or BCU students. You are welcome to contribute issues or feature suggestions however we would prefer HaCS members take on building and implementing said features.
+This project is targeted to society members. You are welcome to contribute issues or feature suggestions however we would prefer HaCS members take on building and implementing said features.
 
 As this project aims to be beginner friendly, please keep a friendly, open and collaborative attitude when communicating on this repository, and be respectful of everyone's abilities and ideas.
 
