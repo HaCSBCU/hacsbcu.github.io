@@ -9,6 +9,7 @@
 		<title>HaCS: Hackathon and Computing Society</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/slick/slick.css">
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
@@ -29,13 +30,13 @@
 
 						<!-- Content -->
 							<section id="content" class="main">
-								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
-								<h2>Magna feugiat lorem</h2>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-								<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-								<h2>Tempus veroeros</h2>
-								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
-							</section>
+								<span class="image main"><div><img src="images/bullhacks.jpg" alt="BullHacks 2018"></div></span>
+								<h2>What is BullHacks?</h2>
+								<p>BullHacks is HaCS' annual student hackathon, held at Birmingham City University.</p>
+								<h2>Sponsors</h2>
+								<h2>Questions?</h2>
+								<p>If you have any unanswered questions, visit our <a href="https://bullhacks.tech" target="_blank">website</a> or <a href="mailto:hello@hacs.tech">email</a> us.</p>
+								</section>
 
 					</div>
 
@@ -62,7 +63,7 @@
 									<!-- <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
 								</ul>
 							</section>
-							<p class="copyright">&copy; Hackathon and Computing Society, 2018. Design by <a href="https://html5up.net">HTML5 UP</a>.
+							<p class="copyright">Banner photo &copy; Harshpal Bhirth, 2018.<br><br>&copy; Hackathon and Computing Society, 2018. Design by <a href="https://html5up.net">HTML5 UP</a>.
 								Powered by <a href="https://get.tech">.tech Domains</a>.
 							<br>By using this site, you're agreeing to our <a href="terms.html" target="_blank">terms</a>.</p>
 						</footer>
@@ -77,6 +78,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+				  $('.carousel').slick({
+					autoplay: true,
+					autoplaySpeed: 3000,
+					arrows: false,
+					fade: true,
+					speed: 500
+				  });
+				});
+			  </script>
 	</body>
 </html>
