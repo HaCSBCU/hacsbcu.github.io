@@ -205,5 +205,17 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+
+
+
+
+			<script>
+				
+			if (location.protocol != 'https:' && location.protocol != 'file:'){
+				location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+			}
+			</script>
+
+
 	</body>
 </html>
