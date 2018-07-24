@@ -14,3 +14,28 @@ This project is targeted to society members. You are welcome to contribute issue
 As this project aims to be beginner friendly, please keep a friendly, open and collaborative attitude when communicating on this repository, and be respectful of everyone's abilities and ideas.
 
 For a full code of conduct consult our [conduct](https://github.com/hacsbcu/conduct) repository.
+
+## Testing Locally
+We're using Docker to run the site locally for testing purposes. You'll need to go [here](https://hub.docker.com) and create an account to download Docker. To run the site with Docker, you'll need to create a Docker image, and then create a container using that image.
+
+To create the image, run
+```
+docker build -t hacs .
+```
+
+To run a container using this image, run
+```
+docker run -d -p 3000:80 --name hacs hacs
+```
+
+Then navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000), or whatever port you used in the above command.
+
+Every time you make changes to the source code, you'll have to rebuild the image and re-run the container. To rebuild the image, run
+```
+docker rmi hacs -f
+``` 
+
+To re-run the container, run
+```
+docker rm hacs -f; docker run -d -p 3000:80 --name hacs hacs
+```
