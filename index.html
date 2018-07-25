@@ -159,42 +159,7 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>We're part of BCUSU</h2>
-							<p>BCUSU is the students' union at Birmingham City University. They're our parent organisation and allow us to provide for our members.</p>
-							<ul class="actions">
-								<li><a href="https://bcusu.com" target="_blank" class="button">BCUSU Website</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Get in touch</h2>
-							<dl class="alt">
-								<dt>General</dt>
-								<dd><a href="mailto:hello@hacs.tech">hello@hacs.tech</a></dd>
-								<dt>President</dt>
-								<dd><a href="mailto:president@hacs.tech">president@hacs.tech</a></dd>
-								<dt>VP</dt>
-								<dd><a href="mailto:vicepresident@hacs.tech">vicepresident@hacs.tech</a></dd>
-								<dt>Technical</dt>
-								<dd><a href="mailto:technical@hacs.tech">technical@hacs.tech</a></dd>
-								<dt>Marketing</dt>
-								<dd><a href="mailto:marketing@hacs.tech">marketing@hacs.tech</a></dd>
-								<dt>SU</dt>
-								<dd><a href="mailto:suliaison@hacs.tech">suliaison@hacs.tech</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://twitter.com/hacsbcu" target="_blank" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="https://facebook.com/groups/hacsbcu" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<!-- <li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li> -->
-								<li><a href="https://github.com/hacsbcu" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-								<!-- <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
-							</ul>
-						</section>
-						<p class="copyright">&copy; Hackathon and Computing Society, 2018. Design by <a href="https://html5up.net">HTML5 UP</a>.
-							Powered by <a href="https://get.tech">.tech Domains</a>.
-						<br>By using this site, you're agreeing to our <a href="terms.html" target="_blank">terms</a>.</p>
-					</footer>
+					<footer id="footer" w3-include-html="footer.html"></footer>
 
 			</div>
 
@@ -204,13 +169,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-
-
-
+			<script src="assets/js/includehtml.js"></script>
+			<script>includeHTML();</script>
 
 			<script>
-				
 			if (location.protocol != 'https:' && location.protocol != 'file:'){
 				location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 			}
