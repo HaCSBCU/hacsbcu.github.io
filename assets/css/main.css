@@ -3190,26 +3190,21 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-moz-transition: background-color 0.2s ease;
+		-webkit-transition: background-color 0.2s ease;
+		-ms-transition: background-color 0.2s ease;
+		transition: background-color 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
 		position: fixed;
 		width: 100%;
 		max-width: 100%;
 		background-color: #f7f7f7;
-		border-bottom-left-radius: 1em;
-		border-bottom-right-radius: 1em;
 		cursor: default;
 		text-align: center;
 		z-index: 1;
 		padding-bottom: 0.5em;
 		padding-top: 0.5em;
-		border-bottom:0.05em  solid black;
-		border-right:0.05em  solid black;
-		border-left:0.05em  solid black;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3290,8 +3285,6 @@ input, select, textarea {
 			top: 0;
 			padding: 0.5em 1em;
 			background-color: rgba(247, 247, 247, 0.95);
-			border-top-left-radius: 0;
-			border-top-right-radius: 0;
 			z-index: 10000;
 		}
 
